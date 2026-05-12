@@ -332,4 +332,12 @@ onBeforeUnmount(() => {
   gap: 12px;
   flex-shrink: 0;
 }
+
+.modal-body img {
+  max-width: 100%;
+  height: auto;
+  max-height: 180px;
+  object-fit: cover;
+}
+
 </style>
